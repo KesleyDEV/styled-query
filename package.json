@@ -1,18 +1,10 @@
 {
   "name": "styled-query",
   "version": "1.0.0",
-  "description": "Beautiful media queries for styled-component",
+  "description": "styled-query",
   "main": "dist/styled-query.common.js",
-  "module": "dist/styled-query.es.js",
   "jsnext:main": "dist/styled-query.es.js",
   "types": "./src/index.d.ts",
-  "repository": "git@github.com:kesleydev/styled-query.git",
-  "keywords": [
-    "styled-components",
-    "media-query",
-    "media",
-    "breakpoint"
-  ],
   "scripts": {
     "test": "jest",
     "clean": "rimraf dist",
@@ -25,8 +17,22 @@
     "dist",
     "src"
   ],
-  "author": "Kesley David <kesleydev@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KesleyDEV/styled-query.git"
+  },
+  "keywords": [
+    "styled-components",
+    "media-query",
+    "media",
+    "breakpoint"
+  ],
+  "author": "Kesley David <kesleygti@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KesleyDEV/styled-query/issues"
+  },
+  "homepage": "https://github.com/KesleyDEV/styled-query#readme",
   "peerDependencies": {
     "styled-components": ">= 1"
   },
