@@ -1,7 +1,7 @@
 {
   "name": "styled-query",
-  "version": "1.0.0",
-  "description": "styled-query",
+  "version": "1.0.1",
+  "description": "Media queries for stylized components",
   "main": "dist/styled-query.common.js",
   "jsnext:main": "dist/styled-query.es.js",
   "types": "./src/index.d.ts",
