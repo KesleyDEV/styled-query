@@ -1,6 +1,6 @@
-# 💅💍 styled-media-query
+# 💅💍 styled-query
 
-**Don't forget to STAR 🎊 We are working so hard to add more features/customizations to `styled-media-query`!**
+**Don't forget to STAR 🎊 We are working so hard to add more features/customizations to `styled-query`!**
 
 **Note: This documentation is for the latest version (v2). We still support v1 syntax but it'll be removed in v3.**
 
@@ -25,13 +25,13 @@ Features:
 You can install it like every other library with awesome **yarn**:
 
 ```
-yarn add styled-media-query
+yarn add styled-query
 ```
 
 or with **npm**
 
 ```
-npm install styled-media-query
+npm install styled-query
 ```
 
 _Note: If you didn't install `styled-components` yet, install it as well `yarn add styled-components`_
@@ -63,7 +63,7 @@ Probably this example will explain most of this library. You can use one of thes
 
 ```js
 import styled from "styled-components"; // You need this as well
-import media from "styled-media-query";
+import media from "styled-query";
 
 const Box = styled.div`
   background: black;
@@ -180,7 +180,7 @@ Our breakpoints may not fit your app, so we export another function called `gene
 
 ```javascript
 import styled from "styled-components"; // You need this as well
-import { generateMedia } from "styled-media-query";
+import { generateMedia } from "styled-query";
 
 const customMedia = generateMedia({
   desktop: "78em",
@@ -202,7 +202,7 @@ const Box = styled.div`
 In the case you needed the default breakpoints object, you can import it as follow:
 
 ```javascript
-import { defaultBreakpoints } from "styled-media-query";
+import { defaultBreakpoints } from "styled-query";
 ```
 
 ## 🐽 Concepts
@@ -211,11 +211,11 @@ There's a little to learn before you can read the API section.
 
 ### Breakpoints Object
 
-It's an object containing each break point name as keys and the screen width as values. `styled-media-query` exports the `defaultBreakpoints` object.
+It's an object containing each break point name as keys and the screen width as values. `styled-query` exports the `defaultBreakpoints` object.
 
 ### Media Generator Object
 
-A `media generator object` is what is returned from [`generateMedia`](#generateMedia) function or the [default exported object](#default-media) from `styled-media-query`. Read API section for each method.
+A `media generator object` is what is returned from [`generateMedia`](#generateMedia) function or the [default exported object](#default-media) from `styled-query`. Read API section for each method.
 
 ## 🌼 API
 
@@ -228,7 +228,7 @@ A [`media generator object`](#media-generator-object) with default [`breakpoints
 _Example:_
 
 ```javascript
-import media from "styled-media-query";
+import media from "styled-query";
 ```
 
 ### `generateMedia`
@@ -299,4 +299,4 @@ _Example:_
 Similar to [`pxToRem`](#pxToRem).
 
 
-Originated from: https://github.com/morajabi/styled-media-query
+Originated from: https://github.com/morajabi/styled-query
